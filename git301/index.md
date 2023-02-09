@@ -5,18 +5,17 @@ marp: true
 
 ## Warmup
 Take a moment to create a GitHub account, or verify your password. Feel free to
-post your username in Teams chat so we can get a little social network going.
-Follow me @ripleymj.
+post your username on your Slack profile. Follow me @hcientist.
 
 ---
 # Roadmap
 
-In tonight's meeting, you'll learn how to fork a repository, make changes locally, open a pull request, and synchronize the project back to your computer.
+In this session, you'll learn how to fork a repository, make changes locally, open a pull request, and synchronize the project back to your computer.
 
 ---
 # Step 1 - Fork the repo
 
-Go to <https://github.com/jmunixusers/history> and click `Fork` in the upper right-hand corner. If prompted, choose your personal account.
+Go to <https://github.com/hcientist/Stylin-Syrup-Sow/> and click `Fork` in the upper right-hand corner. If prompted, choose your personal account.
 
 ---
 # Step 2 - Clone your new repo
@@ -24,8 +23,8 @@ Go to <https://github.com/jmunixusers/history> and click `Fork` in the upper rig
 Clone your new personal fork to your computer. If you like, use the green `Code` button to get the repo URL with SSH syntax.
 
 ```bash
-$ git clone git@github.com:YOURNAME/history.git
-Cloning into 'history'...
+$ git clone git@github.com:YOURNAME/Stylin-Syrup-Sow.git
+Cloning into 'Stylin-Syrup-Sow'...
 remote: Enumerating objects: 265, done.
 remote: Counting objects: 100% (25/25), done.
 remote: Compressing objects: 100% (23/23), done.
@@ -37,20 +36,20 @@ Resolving deltas: 100% (77/77), done.
 ---
 # Step 3 - Confirm your origin
 
-Confirm the origin URL is set correctly. (From here out, you should see your e-ID instead of `ripleymj`.)
+Confirm the origin URL is set correctly. (From here out, you should see your e-ID instead of `hcientist`.)
 
 ```bash
-~/history$ git remote get-url origin
-git@github.com:ripleymj/history.git
+~/Stylin-Syrup-Sow$ git remote get-url origin
+git@github.com:hcientist/Stylin-Syrup-Sow.git
 ```
 
 ---
 # Step 4 - Add an upstream remote
 
-Add the UUG's repo as an additional remote. You can use the HTTPS URL since you're not writing to this repository.
+Add my repo as an additional remote. You can use the HTTPS URL since you're not writing to this repository.
 
 ```bash
-$ git remote add upstream https://github.com/jmunixusers/history
+$ git remote add upstream https://github.com/hcientist/Stylin-Syrup-Sow.git
 $ git remote
 origin
 upstream
@@ -70,14 +69,17 @@ $ git branch
 ```
 
 ---
-# Step 6 - Add yourself and commit
+# Step 6 - Add some style and commit
 
-Open the `Members.md` file in your favorite editor, and add/update a line for yourself. Please add yourself sorted by Years at JMU, then alphabetical by last name. Please use spaces instead of tabs, and try to keep the pipe symbols aligned. Once you've made your change, add and commit the file like we've done before.
+1. Open the `index.html` file in your favorite editor, and add a style rule that you think improves the page.
+1. ensure the page still passes HTML validation
+1. ensure the page still has no accessibility issues
+1. Once you've made your change and ensured compliance with validation and a11y standards, add and commit the file like we've done before.
 
 ```bash
-$ git add Members.md
+$ git add index.html
 $ git commit
-[add-ripleymj 0823ef7] Add Mike
+[add-hcientist 0823ef7] Add Mike
  1 file changed, 1 insertion(+)
 ```
 
@@ -97,9 +99,9 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote:
 remote: Create a pull request for 'add-mike' on GitHub by visiting:
-remote:      https://github.com/ripleymj/history/pull/new/add-mike
+remote:      https://github.com/hcientist/Stylin-Syrup-Sow/pull/new/add-mike
 remote:
-To github.com:ripleymj/history.git
+To github.com:hcientist/Stylin-Syrup-Sow.git
  * [new branch]      add-mike -> add-mike
 ```
 
@@ -141,7 +143,7 @@ hint: You can replace "git config" with "git config --global" to set a default
 hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
-From https://github.com/jmunixusers/history
+From https://github.com/hcientist/Stylin-Syrup-Sow
  * branch            main       -> FETCH_HEAD
  * [new branch]      main       -> upstream/main
 Already up to date.

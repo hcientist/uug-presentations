@@ -6,9 +6,10 @@ marp: true
 ![bg contain right](discord-qr.png)
 Take a moment to create a GitHub account, or verify your password.
 
-Please post your username in Discord (join code over there --> ) so we can get a little social network going.
+HUGE THANKS TO JMU UUG, esp. Ripley (@ripleymj with a name like Michael, he has to be good®)
+<!-- Please post your username in Discord (join code over there --> ) so we can get a little social network going. -->
 
-Follow me @ripleymj.
+<!-- Follow me @ripleymj. -->
 
 ---
 # Roadmap
@@ -20,7 +21,7 @@ Follow me @ripleymj.
 ---
 # What is git?
 
-- Git is a distributed version control system
+- Git is a _distributed_ **version control system**
 - Git was started by Linus Torvalds out of frustration with existing systems
 - Theories on git’s naming origin vary widely
 
@@ -61,7 +62,8 @@ a common history in an orderly manner
 - In 2022, the git questions returned
 
 ---
-![height:15cm](2022-vcs-choice.png)
+tl;dr GitHub is wildly popular
+<!-- ![height:15cm](2022-vcs-choice.png)
 <https://survey.stackoverflow.co/2022/>
 
 ---
@@ -74,7 +76,7 @@ a common history in an orderly manner
 
 ---
 ![height:15cm](2022-git-host-part2.png)
-<https://survey.stackoverflow.co/2022/>
+<https://survey.stackoverflow.co/2022/> -->
 
 ---
 # So what about GitHub?
@@ -85,6 +87,7 @@ a common history in an orderly manner
 - A database of issues
 - A database of change requests, comments, and approvals
 - An API for running events on repository changes
+- a genius startup mechanism (free for OSS!)
 
 ---
 # So what about GitHub?
@@ -368,12 +371,6 @@ tradition says it should not contain binaries that are artifacts of source files
 - A `.gitignore` file will tell git about file extensions or folders you don't want
 - You always choose which files to commit, but `.gitignore` will prevent accidentally
 committing files you don't want
-
----
-# Hacktoberfest
-
-Stay tuned for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) where you
-can win prizes for contributing to projects on GitHub during the month of October
 
 ---
 # Going futher
