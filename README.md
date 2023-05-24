@@ -18,7 +18,7 @@ For slides rendered to PDF or presentation notes for offline reading, download t
 * [Debugging](debugging/index.md)
 * Distributions - [Debian](distributions/Debian.md), [Red Hat](distributions/RedHat.md)
 * [Elasticsearch](elastic/index.md)
-* Git - [101](git101/index.md), [201](https://github.com/jmunixusers/git-201) (External)
+* Git - [101](git101/index.md), [201](https://github.com/jmunixusers/git-201) (External), [301](git301/index.md)
 * [How to build a VM](BuildAVM/index.md)
 * [Intel Pin](https://github.com/lam2mo/uug-pin) (External)
 * [LaTeX](LaTeX.md)
